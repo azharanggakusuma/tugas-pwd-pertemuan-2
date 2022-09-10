@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url('../img/bg.jpg');
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h1:hover{
+    color: #040303;
+    letter-spacing: 2px;
+}
+
+p, h2{
+    color: white;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px gray;
+    padding: 5px;
+    background: white;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 95%;
+    width: 4cm;
+    height: 4cm;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px red;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1024px;
+}
+
+th{
+    background-color: #040303;
+}
+
+td{
+    background-color: #2C3333;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    color: #dddddd;
+    padding: 8px;
+}
+
+td:first-child{
+    text-align: center;
+}
+
+.judul{
+    text-align: center;
+    font-size: 28px;
+}
+
+.judul-tabel{
+    background-color: whitesmoke;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.konten{
+    margin-top: 135px;
+}
+
+.tombol{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+td:hover{
+    background-color: black;
+}
