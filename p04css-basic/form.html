@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form PMB</title>
+    <link rel="stylesheet" href="css_azharangga_kusuma.css">
+</head>
+<body>
+    <div class="pembungkus-form">
+        <h2 class="judul-form">Form PMB STMIK IKMI Cirebon</h2>
+        <form action="#">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Ketikan nama lengkap">
+            <br><br>
+                
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Ketikan E-mail">
+            <br><br>
+                
+            <label for="jas">Kebudayaan disekitar:</label>
+            <br><br>
+            <input type="checkbox" name="sunda" id="kebudayaan_disekitar">Sunda
+            <input type="checkbox" name="jawa" id="kebudayaan_disekitar">Jawa
+            <input type="checkbox" name="batak" id="kebudayaan_disekitar">Batak
+            <input type="checkbox" name="betawi" id="kebudayaan_disekitar">Betawi
+            <input type="checkbox" name="lainnya" id="kebudayaan_disekitar">Lainnya
+            <br><br><br>
+
+            <label for="jenis_kelamin">Jenis Kelamin:</label>
+            <br><br>
+            <input type="radio" name="laki-laki" id="jenis_kelamin">Laki-laki
+            <input type="radio" name="perempuan" id="jenis_kelamin">Perempuan
+            <br><br>
+
+            <label for="agama">Agama:</label>
+            <select name="agama" id="agama">
+                <option value="">Silahkan pilih agama anda</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+            <br><br>
+
+            <div class="tengah">
+                <input type="submit" value="Kirim" class="tombol">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
