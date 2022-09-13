@@ -70,6 +70,10 @@ input[type=date]{
     margin-bottom: 10px;
 }
 
+option:first-child{
+    display: none;
+}
+
 .tombol{
     background-color: #4CAF50;
     color: white;
