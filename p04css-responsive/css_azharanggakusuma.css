@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pembungkus-kop-surat{
+    margin-bottom: 28px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.nama-kampus-1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.nama-kampus-2{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+th{
+    text-align: left;
+}
+
+.tengah{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.pembungkus-form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    max-width: 600px;
+}
+
+input[type=date]{
+    margin-bottom: 10px;
+}
+
+option:first-child{
+    display: none;
+}
+
+.tanda-tangan{
+    margin-left: 1024px;
+    margin-top: 20px;
+}
+
+.tombol{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+.tabel-jurusan{
+    margin: left;
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        margin-left: 50px;
+    }
+
+    .nama-kampus-1{
+        font-size: 15px;
+    }
+
+    .nama-kampus-2{
+        font-size: 25px;
+    }
+    
+    hr{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .pembungkus-form{
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    form{
+        width: 100%;
+    }
+    
+    fieldset:first-child{
+        width: 100%;
+    }
+    
+    .tanda-tangan{
+        margin-left: 0;
+        margin-left: 100px;
+        
+    }
+}
