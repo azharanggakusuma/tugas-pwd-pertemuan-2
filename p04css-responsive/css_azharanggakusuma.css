@@ -117,7 +117,7 @@ option:first-child{
     background-color: #cf2124;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
     .logo{
         margin-left: 50px;
     }
