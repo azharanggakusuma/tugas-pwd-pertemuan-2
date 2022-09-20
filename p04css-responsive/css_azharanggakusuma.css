@@ -141,7 +141,7 @@ option:first-child{
     }                         
     
     input[type=text], select, textarea, input[type=date], input[type=number]{
-        max-width: 300px;
+        max-width: 290px;
     }
     
     .tanda-tangan{
