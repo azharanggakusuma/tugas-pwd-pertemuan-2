@@ -57,7 +57,7 @@ input[type=text], select, textarea, input[type=date], input[type=number]{
     margin-top: 6px;
     margin-bottom: 16px;
     line-height: 20px;
-    max-width: 1170px;
+    max-width: 1120px;
 }
 
 input[type=text], select, textarea, input[type=date], input[type=number], input[type=radio]{
