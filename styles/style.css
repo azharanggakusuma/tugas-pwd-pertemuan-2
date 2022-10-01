@@ -354,6 +354,10 @@ footer{
         padding: 10px;
         text-align: center;
     }
+    
+    .isi-menu a{
+        font-size: 11px;
+    }
 
     .kartu{
         width: 90%;
