@@ -349,9 +349,10 @@ footer{
     }
 
     .navigasi a{
-        font-size: 13px;
+        font-size: 14px;
         width: 100%;
         padding: 10px;
+        text-align: center;
     }
 
     .kartu{
@@ -380,7 +381,7 @@ footer{
 
     .sertifikat{
         min-width: 320px;
-        margin-left: -25px;
+        margin-left: -27px;
     }
 
     .wadah-kontak{
