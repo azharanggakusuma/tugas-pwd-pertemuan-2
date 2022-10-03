@@ -120,7 +120,7 @@ p, h2{
 
 .foto-profil, .foto-sosmed{
     border-radius: 50%;
-    box-shadow: 1px 1px 4px grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 5px;
     background: white;
     margin: 15px;
@@ -135,7 +135,7 @@ p, h2{
 .foto-profil:hover, .foto-sosmed:hover{
     transform: scale(1.2);
     opacity: 100%;
-    box-shadow: 1px 1px 6px orange;
+    bbox-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .kartu{
